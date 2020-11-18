@@ -21,4 +21,4 @@ app.get('/game', routes.game)
 app.get('/result', routes.result)
 app.get('/sobre-nos', routes.sobrenos)
 
-app.listen(3333)
+app.listen(3333, () => console.log('Server is running...'))
