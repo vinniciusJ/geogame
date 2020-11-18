@@ -1,13 +1,21 @@
 #container{
     max-width: 78vw;
     height: 60.8vh;
+
     margin: 8rem 16rem;
+
+  
     display: grid;
+
+    /*20rem - 48.8rem */
+
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "current history" "best history";
+
     grid-column-gap: clamp(4rem, 8rem, 10rem);
     grid-row-gap: clamp(4rem, 6rem, 8rem);
+
     justify-content: space-between;
     align-content: space-between;
 }
@@ -15,6 +23,7 @@
 #container section{
     border-radius: 3rem;
     padding: 2rem 4rem;
+
     display: flex;
     flex-direction: column;
 }
@@ -25,6 +34,7 @@
     color: var(--footer-color);
     display: flex;
     flex-direction: column;
+    
     align-items: center;
 }
 
@@ -32,6 +42,7 @@
     font-weight: 400;
     font-size: 2.8rem;
     text-align: center;
+
     padding-bottom: 1.2rem;
 }
 
@@ -42,8 +53,10 @@
 
 .current-player{
     grid-area: current;
+
     min-height: 16rem;
     max-width: 46rem;
+    
     background: var(--main-red-color);
     justify-content: space-between;
     color: var(--footer-color);
@@ -51,7 +64,9 @@
 
 .data{
     display: grid;
+
     height: 8rem;
+
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "name evaluation" "grade time";
@@ -70,9 +85,11 @@
 
 .best-player{
     grid-area: best;
+
     min-height: 16rem;
     max-width: 46rem;
     min-width: 38rem;
+
     background: var(--main-green-color);
     justify-content: space-between;
     color: var(--footer-color);
@@ -82,14 +99,17 @@
 .history{
     grid-area: history;
     min-width: 48rem;
+
     background: var(--main-blue-color);
 }
 
 .history .history-results{
     width: 100%;
     height: 100%;
+
     margin: 3.4rem 0;
     background: white;
+
     display: flex;
     flex-direction: column;
     border-radius: 2rem;
@@ -98,6 +118,8 @@
 .history .history-results .table-headers{
     display: flex;
     justify-content: space-between;
+    
+
     font-size: 2rem;
     color: var(--main-blue-color);
     border-bottom: .1rem solid var(--main-blue-color);
@@ -108,6 +130,7 @@
     grid-template-columns: 9rem 5rem 9rem 9rem;
     justify-content: space-between;
     text-align: center;
+
     padding: 1.4rem 1.4rem 1.4rem .6rem;
 }
 .history .history-results .table-data .table-row{

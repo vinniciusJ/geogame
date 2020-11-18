@@ -1,7 +1,9 @@
+
 .details h2{
     font-size: 2.4rem;
     line-height: 1.5;
     font-weight: 400;
+
     width: 36rem;
     margin-bottom: 2.8rem;
 }
@@ -10,6 +12,7 @@
     font-size: 1.6rem;
     line-height: 1.5;
     font-weight: 300;
+
     width: 40rem;
     margin-bottom: 4rem;
 }
@@ -18,17 +21,21 @@
     width: 22rem;
     padding: 1rem;
     text-decoration: none;
+    
     border-radius: 6rem;
     background: var(--main-blue-color);
+
     display: flex;
     justify-content: center;
     align-items: center;
+
     box-shadow: .4rem .4rem var(--blue-shadow);
 }
 
 .details a img{
     width: 2.6rem;
     height: 2.6rem;
+
     margin-right: 1.2rem;
 }
 
@@ -36,4 +43,5 @@
     font-size: 2.4rem;
     color: var(--footer-color);
     font-weight: 400;
+    
 }

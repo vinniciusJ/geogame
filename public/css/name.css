@@ -7,30 +7,39 @@ form .input-container {
     display: flex;
     flex-direction: column;
     height: 100%;
+
     justify-content: center;
 }
 
 form .input-container label{
     font-size: 2.4rem;
     font-weight: 400;
+
     margin-bottom: 4rem;
 }
 
 form .input-container div input{
     width: 30rem;
+
     border: solid .2rem var(--main-blue-color);
+
     border-radius: 2.6rem;
     font-size: 1.8rem;
+
     height: 6rem;
+
     padding: 1rem 2rem;
     outline: none;
+
     margin-right: 1.8rem;
 }
 
 form .input-container div button{
     border: none;
+
     height: 6rem;
     width: 6rem;
+
     border-radius: 2.6rem;
     background: var(--main-blue-color);
 }

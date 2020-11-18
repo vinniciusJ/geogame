@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
 
 :root{
     font-size: 62%;
@@ -7,8 +6,10 @@
     --main-green-color: #65D793;
     --main-blue-color: #54A5FF;
     --main-red-color: #EF3535;
+
     --text-color: #000000;
     --footer-color: #FFF;
+
     --green-shadow: #CCFFBF;
     --blue-shadow: #3C93E1;
 }
@@ -21,8 +22,4 @@
 
 *, button, input, textarea{
     font-family: 'Open Sans', sans-serif;
-}
-
-h1, h2 {
-    font-family: 'Sanchez', serif;
 }

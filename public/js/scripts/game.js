@@ -34,7 +34,7 @@ pointsOnScreen.forEach(point => {
             setTimeout(() => changeFill(selectedPoint, '#EF3535'), 1000)
         }
         else {
-            currentPlayer.grade > 0 && currentPlayer.grade-- 
+            currentPlayer.grade--  
 
             setSound('wrong')
             changeFill(selectedPoint, '#B13737')
@@ -63,8 +63,8 @@ pointsOnScreen.forEach(point => {
             currentPlayer.setEvaluate()
             
             const [ domain ] = window.location.href.split('game')
-            const path = `result`
-            const attr = currentPlayer.toParam()
+            const path = `results.html?`
+            const attr = currentPlayer.toString()
 
             window.location.href = `${domain}${path}${attr}`
         }
