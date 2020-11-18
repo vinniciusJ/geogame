@@ -1,0 +1,87 @@
+body{
+    overflow-x: hidden;
+}
+
+#container{
+    height: 90vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.desc{
+    margin: 2rem 0;
+}
+
+.desc p{
+    font-size: 2rem;
+}
+
+.desc p .coord{
+    background: var(--main-red-color);
+    color: var(--footer-color);
+
+    padding: .4rem 2rem;
+    width: 20rem;
+
+    font-size: 1.8rem;
+    border-radius: 4rem;
+}
+
+.map-area {
+    height: 64vh;
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.map-area svg{ 
+    width: 65vw;
+    min-width: 80rem;
+}
+
+.points.visible{
+    display: initial;
+}
+.points{
+    display: none;
+}
+
+.wind-rose{
+    position: absolute;
+
+    left: 2rem;
+    bottom: 0rem;
+}
+
+.wind-rose img{
+    width: 6rem;
+}
+
+
+.results{
+    display: flex;
+    justify-content: space-around;
+
+    width: 40rem;
+    margin-bottom: 2rem;
+}
+
+.results p{
+    color: var(--footer-color);
+    font-size: 1.6rem;
+
+    border-radius: 3rem;
+
+    padding: .6rem 4rem;
+
+    background: var(--main-blue-color);
+}
+
+.results p span{
+    font-weight: 700;
+}

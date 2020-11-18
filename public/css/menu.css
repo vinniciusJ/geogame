@@ -1,0 +1,51 @@
+.menu-container{
+    width: 100vw;
+    height: 8rem;
+
+    background: var(--main-green-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu{
+    width: 80vw;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu .menu-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    min-width: 23.4rem;
+    text-decoration: none;
+
+    color: var(--text-color);
+}
+
+#menu .menu-logo img{
+    height: 8.8rem;
+    width: 8.8rem;
+}
+
+#menu .menu-link {
+    display: flex;
+    align-items: center;
+}
+
+#menu .menu-link a{
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    border-radius: 6rem;
+
+    color: var(--main-green-color);
+    background: var(--footer-color);
+    box-shadow: .22em .4rem var(--green-shadow);
+
+    transition: .4s ease-in-out;
+    text-decoration: none;
+}

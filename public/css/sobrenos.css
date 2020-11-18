@@ -1,0 +1,128 @@
+body{
+    overflow-x: hidden;
+}
+
+#container{
+    padding: 4rem 20rem;
+}
+
+.introduction{
+    margin-bottom: 4rem;
+}
+
+.introduction h1{
+    font-size: 3.4rem;
+    font-weight: 400;
+    color: var(--main-blue-color);
+    margin-bottom: 2rem;
+}
+
+.introduction p{
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+}
+
+.pictures{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 40rem;
+
+    margin: 6rem 0;
+}
+
+.pictures .devs{
+    width: clamp(18rem, 30rem, 32rem);
+    
+    background: var(--main-blue-color);
+    border-radius: 3rem;
+    margin-bottom: 2rem;
+}
+
+.pictures .devs .dev-photo img{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 3rem 3rem 0 0;
+} 
+
+.pictures .devs .dev-info {
+    margin: 1rem 0
+}
+
+.pictures .devs .dev-info header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 1rem;
+}
+
+.pictures .devs .dev-photo div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    margin: .8rem 0 1.6rem 0;
+}
+
+.pictures .devs .dev-photo div h2{
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+.pictures .devs .dev-photo p{
+    font-size: 1.6rem;
+    color: #83F1A6;
+}
+
+.pictures .devs .dev-info .desc{
+    display: flex;
+    justify-content: center;
+    padding: 0 2rem;
+
+    width: 100%;
+
+    font-size: 1.4rem;
+    margin-bottom: 2.8rem;
+    color: white;
+    line-height: 1.6;
+}
+
+.pictures .devs .social-networks{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 8rem;
+
+    margin-bottom: 2rem;
+
+}
+
+.pictures .devs .social-networks .social-network svg{
+    stroke: white;
+    transition: .4s ease-in-out;
+}
+
+.pictures .devs .social-networks .social-network:hover svg{
+    stroke: #83F1A6;
+}
+
+.pictures .devs .dev-info,
+.pictures .devs .social-networks{
+    display: none;
+}
+
+.pictures .devs:hover .dev-info,
+.pictures .devs:hover .social-networks{
+    display: flex;
+}
+
+footer p{
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+}
+
