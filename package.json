@@ -6,8 +6,7 @@
   "author": "vinniciusJ <vinnicius.jimenez@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node ./src/app.js",
-    "heroku-postbuild": "npm build"
+    "start": "node ./src/app.js"
   },
   "dependencies": {
     "express": "^4.17.1",
