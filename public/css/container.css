@@ -1,9 +1,7 @@
 #container{
     height: 82.8vh;
     width: 100vw;
-
     display: flex;
-    
     justify-content: center;
     align-items: center;
 }
@@ -17,13 +15,11 @@
 
 #container .globo img{
     width: 40rem;
-    
 }
 
 #container .globo + section{
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     margin-left: 4rem;
 }
