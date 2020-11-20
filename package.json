@@ -1,0 +1,16 @@
+{
+  "name": "geogame",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vinniciusJ/geogame.git",
+  "author": "vinniciusJ <vinnicius.jimenez@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.6"
+  }
+}

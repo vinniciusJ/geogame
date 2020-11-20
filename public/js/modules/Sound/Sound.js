@@ -1,7 +1,7 @@
 const Sound = () => {
     const sounds = { 
-        right: './public/assets/audio/right-song.mp3',
-        wrong: './public/assets/audio/wrong-song.mp3'  
+        right: '/assets/audio/right-song.mp3',
+        wrong: '/assets/audio/wrong-song.mp3'  
     }
 
     const sound = new Audio()

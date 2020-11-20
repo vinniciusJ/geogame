@@ -28,13 +28,11 @@ body{
     align-items: center;
     flex-wrap: wrap;
     min-height: 40rem;
-
     margin: 6rem 0;
 }
 
 .pictures .devs{
-    width: clamp(18rem, 30rem, 32rem);
-    
+    width: clamp(18rem, 30rem, 32rem);    
     background: var(--main-blue-color);
     border-radius: 3rem;
     margin-bottom: 2rem;
@@ -65,7 +63,6 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
-
     margin: .8rem 0 1.6rem 0;
 }
 
@@ -83,9 +80,7 @@ body{
     display: flex;
     justify-content: center;
     padding: 0 2rem;
-
     width: 100%;
-
     font-size: 1.4rem;
     margin-bottom: 2.8rem;
     color: white;
@@ -95,11 +90,8 @@ body{
 .pictures .devs .social-networks{
     display: flex;
     justify-content: space-between;
-
     padding: 0 8rem;
-
     margin-bottom: 2rem;
-
 }
 
 .pictures .devs .social-networks .social-network svg{
