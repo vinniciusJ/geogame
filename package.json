@@ -6,8 +6,7 @@
   "author": "vinniciusJ <vinnicius.jimenez@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node ./app.js",
-    "vercel-build": "node ./app.js"
+    "start": "node ./app.js"
   },
   "dependencies": {
     "express": "^4.17.1",
