@@ -1,7 +1,7 @@
 {
   "name": "geogame",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./src/app.js",
   "repository": "https://github.com/vinniciusJ/geogame.git",
   "author": "vinniciusJ <vinnicius.jimenez@gmail.com>",
   "license": "MIT",
