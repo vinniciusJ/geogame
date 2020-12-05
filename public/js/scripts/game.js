@@ -29,7 +29,7 @@ pointsOnScreen.forEach(point => {
             currentPlayer.grade += 2
 
             setSound('right')
-            changeFill(selectedPoint, 'var(--main-green-color)')
+            changeFill(selectedPoint, '#4AC27D')
 
             setTimeout(() => changeFill(selectedPoint, '#EF3535'), 1000)
         }

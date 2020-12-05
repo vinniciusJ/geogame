@@ -1,7 +1,7 @@
 const express = require('express')
 const path = require('path')
 
-const routes = require('./src/routes.js')
+const routes = require('./routes.js')
 
 const app = express()
 
@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }))
 
 // Sets
 
-app.set('views', path.join(__dirname, 'src', 'views'))
+app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'hbs')
 
 app.get('/', routes.index)

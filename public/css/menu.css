@@ -39,6 +39,5 @@
     color: var(--main-green-color);
     background: var(--footer-color);
     box-shadow: .22em .4rem var(--green-shadow);
-    transition: .4s ease-in-out;
     text-decoration: none;
 }
