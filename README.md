@@ -18,15 +18,15 @@ A partir dessa necessidade, de possibilitar que novos alunos ainda possam ter um
 ### Tela Inicial
 É a tela inicial, sendo então acessada ao entrar no site. 
 
-![Home]()
+![Home](public/assets/images/README/doc-landing-page.jpg)
 
 #### Cabeçalho
 No cabeçalho, é possível acessar a aba _Sobre nós_ ou retornar ao _Menu Inicial_
-![Header]()
+![Header](public/assets/images/README/doc-menu.jpg)
 
 #### Rodapé
 No rodapé, há um link, que redireciona para o site das coordenadas comentado em __Motivação__, e que foi usado como inspiração. 
-![Footer]()
+![Footer](public/assets/images/README/doc-footer.png)
 
 Seu cabeçalho e rodapé são o mesmo de todo o restante do site. 
 
@@ -34,12 +34,12 @@ Seu cabeçalho e rodapé são o mesmo de todo o restante do site.
 Clicando no botão _Jogar_, o usuário é enviado para uma página em que ele insere seu nome.
 Feito isso, basta apertar a tecla ``` Enter ``` 
 
-![Name]()
+![Name](public/assets/images/README/doc-name-page.jpg)
 
 ### Jogo das Coordenadas
 É acessado após a inserção do nome pelo usuário. 
 
-![Game]()
+![Game](public/assets/images/README/doc-world-map.jpg)
 
 Em seu centro, está um mapa-mundi, que possuí pontos aleatoriamente marcados. Cada um desses pontos possuí uma coordenada específica e única. 
 
@@ -60,4 +60,4 @@ A cada tentativa, o usuário precisa tentar acertar 10 pontos no mapa, no menor 
 ### Pontuação 
 Após o término da realização do _Jogo das Coordenadas_, uma nova tela aparece para o usuário informando sua pontuação, além de mostrar pontuações anteriores e de outros usuários que jogaram na mesma máquina que a sua. 
 
-![Pontuation]()
+![Pontuation](public/assets/images/README/doc-results.jpg)
