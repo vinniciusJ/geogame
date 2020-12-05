@@ -38,6 +38,11 @@
     border-radius: 6rem;
     color: var(--main-green-color);
     background: var(--footer-color);
-    box-shadow: .22em .4rem var(--green-shadow);
+    box-shadow: .22rem .4rem var(--green-shadow);
     text-decoration: none;
+}
+
+#menu .menu-link a:active{
+    transform: translate(.22rem, .4rem);
+    box-shadow: none;
 }

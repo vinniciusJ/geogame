@@ -26,6 +26,11 @@
     box-shadow: .4rem .4rem var(--blue-shadow);
 }
 
+.details a:active{
+    transform: translate(.4rem, .4rem);
+    box-shadow: none;
+}
+
 .details a img{
     width: 2.6rem;
     height: 2.6rem;
