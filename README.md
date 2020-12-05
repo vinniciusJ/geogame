@@ -12,6 +12,12 @@ No entanto, esse mesmo site se utiliza do Adobe  Flash Player para ser executado
 
 A partir dessa necessidade, de possibilitar que novos alunos ainda possam ter um local que possam se divertir ao mesmo tempo que aprendam sobre coordenadas, surgiu esse projeto. 
 
+## Desenvolvedores
+[Dyogo Romagna Bendo](https://github.com/DyogoBendo)
+
+[Nikoly Cover Pereira](https://github.com/NikolyCover)
+
+[Vinicius de Oliveira Jimenez](https://github.com/vinniciusJ)
 
 ## Estrutura do Website
 
