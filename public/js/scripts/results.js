@@ -12,7 +12,7 @@ const historyContainer = $('.table-data')
 let currentPlayer = { name, correct_answers, time, grade, evaluate: evaluate.split('%20').join(' ') }
 let bestPlayer = JSON.parse(localStorage.getItem('best-player'))
 
-const historyAttempts = JSON.parse(localStorage.getItem('history')) || []
+const historyAttempts = [...JSON.parse(localStorage.getItem('history'))] || []
 
 currentPlayerContainer.innerHTML = showResultContainer('Resultado', currentPlayer)
 
@@ -57,4 +57,5 @@ else {
     historyAttempts.push(currentPlayer) 
 }
 
-localStorage.setItem('history', JSON.stringify(historyAttempts))
+
+localStorage.setItem('history', JSON.stringify(historyAttempts.reverse()))

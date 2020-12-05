@@ -62,11 +62,12 @@ pointsOnScreen.forEach(point => {
             currentPlayer.calculateGrade()
             currentPlayer.setEvaluate()
             
-            const [ domain ] = window.location.href.split('game')
-            const path = `result`
+            const goingToResult = document.createElement('a')
             const attr = currentPlayer.toParam()
+            
+            goingToResult.href = `/result/${attr}`
 
-            window.location.href = `${domain}${path}${attr}`
+            goingToResult.click()
         }
     })
 })
