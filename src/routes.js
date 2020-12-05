@@ -9,7 +9,11 @@ module.exports = {
         return response.render('game')
     },
     result(request, response){
-        return response.render('results')
+        const { name, hits, time, grade, evaluate } = request.params
+
+        console.log(name, hits, time, grade, evaluate )
+
+        return response.render('results', { name, hits, time, grade, evaluate })
     },
     sobrenos(request, response){
         return response.render('sobrenos')

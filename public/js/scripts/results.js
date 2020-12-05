@@ -1,18 +1,18 @@
 import showResultContainer from '../modules/Result/showResultContainer.js'
 import populateHistory from '../modules/Result/populateHistory.js'
 
-import { getValuesFromURL, $ } from '../utils/utils.js'
+import { $ } from '../utils/utils.js'
 
-const { name, correct_answers, time, grade, evaluate } = getValuesFromURL()
+const { name, hits, time, grade, evaluate } = $('#overview').dataset
 
 const currentPlayerContainer = $('.current-player')
 const bestPlayerContainer = $('.best-player')
 const historyContainer = $('.table-data')
 
-let currentPlayer = { name, correct_answers, time, grade, evaluate: evaluate.split('%20').join(' ') }
+let currentPlayer = { name, hits, time, grade, evaluate }
 let bestPlayer = JSON.parse(localStorage.getItem('best-player'))
 
-const historyAttempts = [...JSON.parse(localStorage.getItem('history'))] || []
+const historyAttempts = JSON.parse(localStorage.getItem('history')) || []
 
 currentPlayerContainer.innerHTML = showResultContainer('Resultado', currentPlayer)
 
@@ -58,4 +58,4 @@ else {
 }
 
 
-localStorage.setItem('history', JSON.stringify(historyAttempts.reverse()))
+localStorage.setItem('history', JSON.stringify([...historyAttempts].reverse()))

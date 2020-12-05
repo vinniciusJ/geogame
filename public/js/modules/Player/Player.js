@@ -22,5 +22,5 @@ export default function Player(name){
             }
         }
     }
-    this.toParam = () => `?name=${this.name}&correct_answers=${this.correctAnswers}&time=${this.timeSpent}&grade=${this.grade}&evaluate=${this.evaluate}`
+    this.toParam = () => `${this.name}&${this.correctAnswers}&${this.timeSpent}&${this.grade}&${this.evaluate}`
 }

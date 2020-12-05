@@ -18,7 +18,7 @@ app.set('view engine', 'hbs')
 app.get('/', routes.index)
 app.get('/name', routes.name)
 app.get('/game', routes.game)
-app.get('/result', routes.result)
+app.get('/result/:name&:hits&:time&:grade&:evaluate', routes.result)
 app.get('/sobre-nos', routes.sobrenos)
 
 app.listen(3333, () => console.log('Server is running...'))

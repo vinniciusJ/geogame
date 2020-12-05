@@ -15,9 +15,9 @@ const { start: startChronometer, stop: stopChronometer } = Chronometer()
 
 let { point: currentPoint, lat: currentLat, lng: currentLng  } = showSortedPoint(initiaPoint)
 
-startChronometer()
-
 currentPlayer.name = getValuesFromURL()['name']
+
+startChronometer()
 
 pointsOnScreen.forEach(point => {
     point.addEventListener('click', async event => {
