@@ -1,5 +1,5 @@
 # GeoGame
-GeoGame é um website, desenvolvido para auxiliar no ensino de atividades de geografia. Na atual versão, conta com um único jogo, que trata sobre coordenadas geográficas. 
+GeoGame é um website, desenvolvido para auxiliar no ensino de atividades de geografia. Na atual versão, conta com um único jogo, que trata sobre coordenadas geográficas. Para acessá-lo, basta clicar [aqui](https://geogame-ifpr.herokuapp.com)
 
 ## Requisitos para Uso
 - Qualquer navegador (Firefox, Chrome, etc)
