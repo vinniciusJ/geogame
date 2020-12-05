@@ -1,9 +1,14 @@
 {
+    "name": "geogame",
     "version": 2,
     "builds": [
         {
-            "src": "./app.js",
+            "src": "*.js",
             "use": "@vercel/node"
+        },
+        {
+            "src": "*.hbs",
+            "use": "@vercel/hbs"
         }
     ],
     "routes": [
